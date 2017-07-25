@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 19,
+    "uniqCompNum": 23,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-16-128x128.png",
     "noImageResize": "",
@@ -224,7 +224,7 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/obnazhennoe-telo-devushki-1600x1200-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/food49-2000x1250.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
@@ -258,7 +258,7 @@
               "font-size": "30px",
               "font-family": "'Lato', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
-              "color": "#41a85f"
+              "color": "#000000"
             },
             "SPAN": {
               "color": "#000000"
@@ -305,6 +305,35 @@
           "meta": ""
         },
         {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "30px",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#000000"
+            },
+            "SPAN": {
+              "color": "#000000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-m",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#ffffff",
+            "showMeta": true
+          },
+          "title": "<br>Я предоставляю следующие виды услуг:<br><br>",
+          "meta": ""
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -322,19 +351,111 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.8",
+            "overlayOpacity": "0.5",
             "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
-          "title": "Наши услуги включают:<br><br>",
-          "text": "Все виды классического массажа - 15 000 тг. Длительность &nbsp;90 - 120 мин.<br><br>Все виды эротических массажей - 80 000 тг. Длительность &nbsp;90 - 180 мин.&nbsp;<br><br><br>",
+          "title": "<span style=\"line-height: 1.1;\">Все виды классического массажа</span><br><br>",
+          "text": "СТОИМОСТЬ - 15 000 тг. <br>Длительность &nbsp;90 - 120 мин.<br><br><br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
               "font-size": "48px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-l",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/obnazhennoe-telo-devushki-1600x1200-2000x1500.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Все виды эротического массажа<br><br>",
+          "text": "СТОИМОСТЬ - 80 000 тг. <br>Длительность 90 -180 мин.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/1500986929189-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "FULL SCREEN SLIDER",
+                "showText": true,
+                "text": "<br><span style=\"line-height: 1.5;\">КОБИДО</span><br><br>ИСПАНСКИЙ",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/1500987223358-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "FULL SCREEN SLIDER",
+                "showText": true,
+                "text": "<br>ИСПАНСКИЙ",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": false
+          },
+          "_anchor": "slider-k",
+          "articleLayout": false,
+          "_styles": {
+            "P": {
+              "font-size": "72px",
+              "color": "#e90e0e"
+            },
+            "SPAN": {
+              "color": "#e90e0e"
             }
           }
         },
@@ -356,19 +477,21 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
+            "overlayOpacity": "0.6",
             "overlayColor": "#000",
             "contentAlign": "center",
             "showTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": false
           },
-          "title": "Эксклюзивные и самые популярные массажи:&nbsp;<br><br>",
+          "title": "МАССАЖ &nbsp;ГЕЙШИ&nbsp;<br><br>",
           "text": "<br><span style=\"font-size: 1.5rem; line-height: 1.5;\">1. Кобидо&nbsp;</span><br><br>2. Нейроседативный Испанский массаж<br><br>3. Массаж Гейши<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
-              "font-size": "36px"
+              "font-size": "48px",
+              "font-family": "'Merriweather', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Merriweather:400,300,700"
             }
           }
         },
@@ -420,18 +543,18 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170724-wa0005-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20170724-wa0005-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1500972589501-2000x1332-800x532.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1500972589501-2000x1332.jpg",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Creative",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170724-wa0004-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20170724-wa0004-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1500971818337-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1500971818337-2000x2000.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -440,10 +563,10 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-20170724-wa0003-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img-20170724-wa0003-2000x2000.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1500971993523-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1500971993523-2000x2000.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ],
             "spacing": 1,
