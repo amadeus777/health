@@ -7,7 +7,7 @@
       "title": "Mobirise 3",
       "styling": {
         "primaryColor": "#ffffff",
-        "secondaryColor": "#bfcecb",
+        "secondaryColor": "#ffffff",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
@@ -15,14 +15,14 @@
         "titleFont": "Montserrat",
         "subtitleFont": "Lora",
         "textFont": "Raleway",
-        "isRoundedButtons": false,
+        "isRoundedButtons": true,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
         "isRtl": false
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 17,
+    "uniqCompNum": 19,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-16-128x128.png",
     "noImageResize": "",
@@ -69,13 +69,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#1d8520"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#23a227!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#26af2a"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -97,7 +97,7 @@
           "_name": "menu",
           "_anchor": "menu-g",
           "_params": {
-            "bgColor": "#26af2a",
+            "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
@@ -140,7 +140,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/desktopwallpapers-2000x1125.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/eda-ernika-fon-gody-2000x1500.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -149,7 +149,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#00a82a",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -157,7 +157,7 @@
           },
           "title": "Добро пожаловать!<br><br>",
           "text": "Вас приветствует, Ваш персональный тренер по здоровью Айдам. <br><br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">8 (705) 206-99-97 </a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">Tel: 8 (705) 206-99-97 </a>",
           "_styles": {
             ".mbr-section-title": {
               "font-size": "48px"
@@ -224,23 +224,24 @@
             "paddingBottom": 3,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/zdorovije-fri-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/obnazhennoe-telo-devushki-1600x1200-2000x1500.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": "0.3",
-            "overlayColor": "#41a85f",
+            "overlayColor": "#000000",
             "showTitle": true,
             "showSubtitle": false,
             "showImages": false,
-            "showName": true,
+            "showName": false,
             "showBio": false
           },
           "title": "Я с удовольствием поделюсь с Вами секретами даоских монахов и не только.",
           "subtitle": "Shape your future web project with sharp design and refine coded functions.",
           "_styles": {
             ".card-block P": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#000000"
             },
             ".mbr-section-title": {
               "font-size": "46px",
@@ -260,7 +261,7 @@
               "color": "#41a85f"
             },
             "SPAN": {
-              "color": "#09913a"
+              "color": "#000000"
             }
           },
           "_tags": [
@@ -297,7 +298,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#e25041",
+            "bgColor": "#000000",
             "showMeta": true
           },
           "title": "<br>Все что Вам нужно - это позвонить 8 (705) 206-99-97<br><br>",
@@ -321,19 +322,53 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
-            "overlayColor": "#00a804",
+            "overlayOpacity": "0.8",
+            "overlayColor": "#000000",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": false
           },
-          "title": "Любые виды массажа<br><br>",
-          "text": "Все виды классического массажа - 15 000 тг. Длительность &nbsp;90 - 120 мин.<br><br>Все виды эротических массажей - 80 000 тг. Длительность &nbsp;90 - 180 мин.&nbsp;<br><br>Эксклюзивные и самые популярные массажи:&nbsp;<br><br>1. Кобидо <br><br>2. Нейроседативный Испанский массаж<br><br>3. Массаж Гейши<br>",
+          "title": "Наши услуги включают:<br><br>",
+          "text": "Все виды классического массажа - 15 000 тг. Длительность &nbsp;90 - 120 мин.<br><br>Все виды эротических массажей - 80 000 тг. Длительность &nbsp;90 - 180 мин.&nbsp;<br><br><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
               "font-size": "48px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-h",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2b4acef352-1000x-2000x1632.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Эксклюзивные и самые популярные массажи:&nbsp;<br><br>",
+          "text": "<br><span style=\"font-size: 1.5rem; line-height: 1.5;\">1. Кобидо&nbsp;</span><br><br>2. Нейроседативный Испанский массаж<br><br>3. Массаж Гейши<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px"
             }
           }
         },
@@ -424,49 +459,43 @@
           "allItem": "All"
         },
         {
-          "_inherit": "content5",
           "_styles": {
             ".mbr-section-title, p": {
-              "text-align": "right",
               "color": "#fff"
             },
-            ".mbr-section-title": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center",
-              "font-size": "22px",
+            ".lead P": {
               "font-family": "'Lora', serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "22px"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "content8",
-          "_anchor": "content8-f",
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-i",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/desert2.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
             "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/Av3PWx9NCJw?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
-            "overlayColor": "#1dac1b",
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
             "showTitle": true,
-            "showCaption": true
+            "showText": true,
+            "showButton": false
           },
           "title": "Работаю с выездом",
-          "caption": "<p>Или можете посетить мой кабинет по адресу ниже.</p><p><b>ЗВОНИТЕ:</b>&nbsp; 8 705 206 99 97</p>"
+          "text": "<p>ЗВОНИТЕ:  8 705 206 99 97</p><p>Или можете посетить мой кабинет по адресу ниже...</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_tags": [

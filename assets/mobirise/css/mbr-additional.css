@@ -57,6 +57,12 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Montserrat', sans-serif;
 }
+.btn {
+  border-radius: 1.6em;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .lead a,
 .lead blockquote,
@@ -115,8 +121,8 @@ h6,
   border-color: #d4d4d4 !important;
 }
 .btn-secondary {
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #ffffff;
+  border-color: #ffffff;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -125,14 +131,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #94ada8;
-  border-color: #94ada8;
+  background-color: #d4d4d4;
+  border-color: #d4d4d4;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #94ada8 !important;
-  border-color: #94ada8 !important;
+  background-color: #d4d4d4 !important;
+  border-color: #d4d4d4 !important;
 }
 .btn-info {
   background-color: #7e9b9f;
@@ -236,8 +242,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #85a29c;
-  color: #85a29c;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -245,14 +251,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #bfcecb;
-  border-color: #bfcecb;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #bfcecb !important;
-  border-color: #bfcecb !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-info-outline {
   background: none;
@@ -450,19 +456,19 @@ h6,
 }
 #menu-g .link[aria-expanded="true"],
 #menu-g .dropdown-menu {
-  background: #1d8520;
+  background: #000000;
 }
 #menu-g .nav-dropdown-sm .link:focus,
 #menu-g .nav-dropdown-sm .link:hover,
 #menu-g .nav-dropdown-sm .dropdown-item:focus,
 #menu-g .nav-dropdown-sm .dropdown-item:hover {
-  background: #23a227!important;
+  background: #000000!important;
 }
 #menu-g .navbar,
 #menu-g .nav-dropdown-sm,
 #menu-g .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-g .nav-dropdown-sm .dropdown-menu {
-  background: #26af2a;
+  background: #000000;
 }
 #menu-g .bg-color.transparent .link {
   color: #ffffff;
@@ -487,6 +493,7 @@ h6,
 }
 #testimonials4-a .card-block P {
   font-size: 20px;
+  color: #000000;
 }
 #testimonials4-a .mbr-section-title {
   font-size: 46px;
@@ -502,7 +509,7 @@ h6,
   color: #41a85f;
 }
 #header3-b SPAN {
-  color: #09913a;
+  color: #000000;
 }
 #header3-9 .mbr-section-title,
 #header3-9 .mbr-section-subtitle {
@@ -516,6 +523,9 @@ h6,
 #header1-d .mbr-section-title {
   font-size: 48px;
 }
+#header1-h .mbr-section-title {
+  font-size: 36px;
+}
 #header3-e .mbr-section-title,
 #header3-e .mbr-section-subtitle {
   text-align: center;
@@ -523,16 +533,11 @@ h6,
 #header3-e H3 {
   font-size: 36px;
 }
-#content8-f .mbr-section-title,
-#content8-f p {
-  text-align: right;
+#msg-box8-i .mbr-section-title,
+#msg-box8-i p {
   color: #fff;
 }
-#content8-f .mbr-section-title {
-  text-align: center;
-}
-#content8-f P {
-  text-align: center;
-  font-size: 22px;
+#msg-box8-i .lead P {
   font-family: 'Lora', serif;
+  font-size: 22px;
 }
