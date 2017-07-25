@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-07-24_2105",
+    "name": "Health",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,10 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 17,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "favicon": "@PROJECT_PATH@/assets/images/cooltext252760206189706-1-128x44.png",
+    "noImageResize": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
