@@ -330,7 +330,7 @@
             "bgColor": "#ffffff",
             "showMeta": true
           },
-          "title": "<br>Я предоставляю следующие виды услуг:<br><br>",
+          "title": "<span style=\"line-height: 1.1;\">Я предоставляю следующие виды услуг:</span><br>",
           "meta": ""
         },
         {
